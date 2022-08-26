@@ -7,7 +7,7 @@ import javax.validation.constraints.NotBlank;
 
 public class dtoKys {
     
-    @NotBlank
+    
     private String nombreE;
     @NotBlank
     private int descripcionE;
