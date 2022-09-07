@@ -68,6 +68,9 @@ public class CFotoa {
         Fotoa fotoa = new Fotoa(dtofot.getNombreE());
         
         sFotoa.save(fotoa);
+          
+                
+       
         
         return new ResponseEntity(new Mensaje("Experiencia agregada"), HttpStatus.OK);
     }

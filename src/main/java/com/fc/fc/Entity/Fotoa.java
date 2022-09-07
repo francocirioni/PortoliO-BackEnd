@@ -8,24 +8,22 @@ import javax.persistence.Id;
 
 @Entity
 public class Fotoa {
-     @Id
+    
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String nombreE;
-
-    public Fotoa() {
-    }
-
-    public Fotoa(int id, String nombreE) {
-        this.id = id;
-        this.nombreE = nombreE;
+   
+     public Fotoa() {
     }
 
     public Fotoa(String nombreE) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        this.nombreE = nombreE;
+      
+        
     }
-
-    public int getId() {
+    
+     public int getId() {
         return id;
     }
 
@@ -40,6 +38,6 @@ public class Fotoa {
     public void setNombreE(String nombreE) {
         this.nombreE = nombreE;
     }
-   
+    
     
 }
