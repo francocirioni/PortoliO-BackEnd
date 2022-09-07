@@ -61,10 +61,13 @@ public class CProyectos {
         if(sProyectos.existsByNombreE(dtoexp.getNombreE()))
             return new ResponseEntity(new Mensaje("Esa experiencia existe"), HttpStatus.BAD_REQUEST);
         
-        Proyectos experiencia = new Proyectos(dtoexp.getNombreE(), dtoexp.getDescripcionE());
+        
+        
+        Proyectos experiencia = new Proyectos (dtoexp.getNombreE(), dtoexp.getDescripcionE() );
         sProyectos.save(experiencia);
         
         return new ResponseEntity(new Mensaje("Experiencia agregada"), HttpStatus.OK);
+        
     }
     
     
@@ -83,6 +86,7 @@ public class CProyectos {
         Proyectos proyectos = sProyectos.getOne(id).get();
         proyectos.setNombreE(dtoexp.getNombreE());
         proyectos.setDescripcionE((dtoexp.getDescripcionE()));
+       
         
         sProyectos.save(proyectos);
         return new ResponseEntity(new Mensaje("Experiencia actualizada"), HttpStatus.OK);
