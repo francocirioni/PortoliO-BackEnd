@@ -4,18 +4,19 @@ package com.fc.fc.Dto;
 import javax.validation.constraints.NotBlank;
 
 
-public class dtoProyectos {
-    @NotBlank
+public class dtoAcercade {
+    
+     @NotBlank
     private String nombreE;
     @NotBlank
     private String descripcionE;
     @NotBlank
     private String imagenE;
 
-    public dtoProyectos() {
+    public dtoAcercade() {
     }
 
-    public dtoProyectos(String nombreE, String descripcionE, String imagenE) {
+    public dtoAcercade(String nombreE, String descripcionE, String imagenE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
         this.imagenE = imagenE;
@@ -47,5 +48,6 @@ public class dtoProyectos {
     }
 
   
-       
+    
+    
 }
