@@ -22,35 +22,35 @@ public class dtoKys {
             @NotBlank
     private int descripcionE6;
              @NotBlank
-    private int descripcionE7;
+    private String descripcionE7;
               @NotBlank
-    private int descripcionE8;
+    private String descripcionE8;
                @NotBlank
-    private int descripcionE9;
+    private String descripcionE9;
                 @NotBlank
-    private int descripcionE10;
+    private String descripcionE10;
                  @NotBlank
-    private int descripcionE11;
+    private String descripcionE11;
                   @NotBlank
-    private int descripcionE12;
+    private String descripcionE12;
 
     public dtoKys() {
     }
 
-    public dtoKys(String nombreE, int descripcionE, int descripcionE2, int descripcionE3, int descripcionE4, int descripcionE5, int descripcionE6) {
+    public dtoKys(String nombreE, int descripcionE, int descripcionE2, int descripcionE3, int descripcionE4, int descripcionE5, int descripcionE6, String descripcionE7, String descripcionE8, String descripcionE9, String descripcionE10, String descripcionE11, String descripcionE12) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
         this.descripcionE2 = descripcionE2;
         this.descripcionE3 = descripcionE3;
         this.descripcionE4 = descripcionE4;
         this.descripcionE5 = descripcionE5;
-          this.descripcionE5 = descripcionE6;
-          this.descripcionE5 = descripcionE7;
-          this.descripcionE5 = descripcionE8;
-          this.descripcionE5 = descripcionE9;
-          this.descripcionE5 = descripcionE10;
-          this.descripcionE5 = descripcionE11;
-          this.descripcionE5 = descripcionE12;
+        this.descripcionE6 = descripcionE6;
+        this.descripcionE7 = descripcionE7;
+        this.descripcionE8 = descripcionE8;
+        this.descripcionE9 = descripcionE9;
+        this.descripcionE10 = descripcionE10;
+        this.descripcionE11 = descripcionE11;
+        this.descripcionE12 = descripcionE12;
     }
 
     public String getNombreE() {
@@ -100,8 +100,8 @@ public class dtoKys {
     public void setDescripcionE5(int descripcionE5) {
         this.descripcionE5 = descripcionE5;
     }
-    
-       public int getDescripcionE6() {
+
+    public int getDescripcionE6() {
         return descripcionE6;
     }
 
@@ -109,54 +109,57 @@ public class dtoKys {
         this.descripcionE6 = descripcionE6;
     }
 
-    public int getDescripcionE7() {
+    public String getDescripcionE7() {
         return descripcionE7;
     }
 
-    public void setDescripcionE7(int descripcionE7) {
+    public void setDescripcionE7(String descripcionE7) {
         this.descripcionE7 = descripcionE7;
     }
 
-    public int getDescripcionE8() {
+    public String getDescripcionE8() {
         return descripcionE8;
     }
 
-    public void setDescripcionE8(int descripcionE8) {
+    public void setDescripcionE8(String descripcionE8) {
         this.descripcionE8 = descripcionE8;
     }
 
-    public int getDescripcionE9() {
+    public String getDescripcionE9() {
         return descripcionE9;
     }
 
-    public void setDescripcionE9(int descripcionE9) {
+    public void setDescripcionE9(String descripcionE9) {
         this.descripcionE9 = descripcionE9;
     }
 
-    public int getDescripcionE10() {
+    public String getDescripcionE10() {
         return descripcionE10;
     }
 
-    public void setDescripcionE10(int descripcionE10) {
+    public void setDescripcionE10(String descripcionE10) {
         this.descripcionE10 = descripcionE10;
     }
 
-    public int getDescripcionE11() {
+    public String getDescripcionE11() {
         return descripcionE11;
     }
 
-    public void setDescripcionE11(int descripcionE11) {
+    public void setDescripcionE11(String descripcionE11) {
         this.descripcionE11 = descripcionE11;
     }
 
-    public int getDescripcionE12() {
+    public String getDescripcionE12() {
         return descripcionE12;
     }
 
-    public void setDescripcionE12(int descripcionE12) {
+    public void setDescripcionE12(String descripcionE12) {
         this.descripcionE12 = descripcionE12;
     }
-    
-    
-        
-}
+
+                  
+                  
+                  
+                  
+   
+    }
