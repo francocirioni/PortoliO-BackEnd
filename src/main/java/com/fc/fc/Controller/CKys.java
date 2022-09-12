@@ -64,7 +64,7 @@ public class CKys {
         if(sKys.existsByNombreE(dtokys.getNombreE()))
             return new ResponseEntity(new Mensaje("Esa experiencia existe"), HttpStatus.BAD_REQUEST);
         
-        Kys kys = new Kys(dtokys.getNombreE(), dtokys.getDescripcionE2(), dtokys.getDescripcionE3(), dtokys.getDescripcionE4(), dtokys.getDescripcionE5(), dtokys.getDescripcionE6(), dtokys.getDescripcionE());
+        Kys kys = new Kys(dtokys.getNombreE(), dtokys.getDescripcionE2(), dtokys.getDescripcionE3(), dtokys.getDescripcionE4(), dtokys.getDescripcionE5(), dtokys.getDescripcionE6(), dtokys.getDescripcionE() , dtokys.getDescripcionE7(), dtokys.getDescripcionE8() , dtokys.getDescripcionE9() , dtokys.getDescripcionE10() , dtokys.getDescripcionE11() , dtokys.getDescripcionE12());
         sKys.save(kys);
         
         return new ResponseEntity(new Mensaje("Experiencia agregada"), HttpStatus.OK);
