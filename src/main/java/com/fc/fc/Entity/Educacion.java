@@ -13,13 +13,15 @@ public class Educacion {
     private int id;
     private String nombreE;
     private String descripcionE;
+    private String imagenE;
 
     public Educacion() {
     }
 
-    public Educacion(String nombreE, String descripcionE) {
+    public Educacion(String nombreE, String descripcionE , String imagenE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
+        this.imagenE = imagenE;
     }
 
     public int getId() {
@@ -45,6 +47,15 @@ public class Educacion {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
+
+    public String getImagenE() {
+        return imagenE;
+    }
+
+    public void setImagenE(String imagenE) {
+        this.imagenE = imagenE;
+    }
+    
     
     
 }
