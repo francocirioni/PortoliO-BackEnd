@@ -87,6 +87,18 @@ public class CKys {
         
         Kys kys = sKys.getOne(id).get();
         kys.setNombreE(dtokys.getNombreE());
+        
+        kys.setDescripcionE12((dtokys.getDescripcionE12()));
+        kys.setDescripcionE11((dtokys.getDescripcionE11()));
+        kys.setDescripcionE10((dtokys.getDescripcionE10()));
+        kys.setDescripcionE9((dtokys.getDescripcionE9()));
+        kys.setDescripcionE8((dtokys.getDescripcionE8()));
+        kys.setDescripcionE7((dtokys.getDescripcionE7()));
+        kys.setDescripcionE2((dtokys.getDescripcionE2()));
+        kys.setDescripcionE3((dtokys.getDescripcionE3()));
+        kys.setDescripcionE4((dtokys.getDescripcionE4()));
+        kys.setDescripcionE5((dtokys.getDescripcionE5()));
+        kys.setDescripcionE6((dtokys.getDescripcionE6()));       
         kys.setDescripcionE((dtokys.getDescripcionE()));
         
         sKys.save(kys);
