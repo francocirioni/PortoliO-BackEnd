@@ -33,7 +33,7 @@ public class Kys {
     }
 
     public Kys(String nombreE, int descripcionE2, int descripcionE3, int descripcionE4, int descripcionE5, int descripcionE6, int descripcionE, String descripcionE7, String descripcionE8, String descripcionE9, String descripcionE10, String descripcionE11, String descripcionE12) {
-        this.id = id;
+       
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
         this.descripcionE2 = descripcionE2;
