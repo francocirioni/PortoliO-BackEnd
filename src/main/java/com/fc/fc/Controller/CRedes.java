@@ -95,11 +95,10 @@ public class CRedes {
         
         Redes redes = sRedes.getOne(id).get();
         redes.setNombreE(dtored.getNombreE());
-        redes.setNombreE(dtored.getDescripcionE());
-         redes.setNombreE(dtored.getDescripcionE2());
-          redes.setNombreE(dtored.getDescripcionE3()); 
-      
-        redes.setDescripcionE((dtored.getDescripcionE4()));
+        redes.setDescripcionE(dtored.getDescripcionE());
+        redes.setDescripcionE2(dtored.getDescripcionE2());
+        redes.setDescripcionE3(dtored.getDescripcionE3()); 
+        redes.setDescripcionE4((dtored.getDescripcionE4()));
         
         sRedes.save(redes);
         return new ResponseEntity(new Mensaje("actualizada"), HttpStatus.OK);

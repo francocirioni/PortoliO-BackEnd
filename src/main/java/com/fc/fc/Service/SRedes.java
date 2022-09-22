@@ -3,9 +3,9 @@ package com.fc.fc.Service;
 
 
 
-import com.fc.fc.Entity.Experiencia;
+
 import com.fc.fc.Entity.Redes;
-import com.fc.fc.Repository.RExperiencia;
+
 import com.fc.fc.Repository.RRedes;
 import java.util.List;
 import java.util.Optional;
